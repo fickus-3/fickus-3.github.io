@@ -363,7 +363,7 @@ nav {
 .footer {
     position: relative;
     min-height: 560px;
-    background: url(../img/footer_background.jpg) center center/cover no-repeat;
+    background: url(../img/footer_background.png) center center/cover no-repeat;
 }
 
 .footer:after {

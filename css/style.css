@@ -3,10 +3,6 @@
 @import 'bootstrap-grid.min.css';
 @import 'animate.css';
 
-@font-face {
-    font-display: swap;
-}
-
 * {
     font-family: 'DM Sans', sans-serif;
     font-family: 'Roboto', sans-serif;

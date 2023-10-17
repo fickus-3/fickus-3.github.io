@@ -3,6 +3,10 @@
 @import 'bootstrap-grid.min.css';
 @import 'animate.css';
 
+/* @font-face {
+    font-display: swap;
+} */
+
 * {
     font-family: 'DM Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -125,7 +129,7 @@ nav {
 .promo {
     min-height: 1000px;
 
-    background: url('../img/logo.png') center center/cover no-repeat;
+    background: url('../img/logo.webp') center center/cover no-repeat;
    
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -363,7 +367,7 @@ nav {
 .footer {
     position: relative;
     min-height: 560px;
-    background: url(../img/footer_background.png) center center/cover no-repeat;
+    background: url(../img/footer_background.webp) center center/cover no-repeat;
 }
 
 .footer:after {

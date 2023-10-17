@@ -7,15 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;1,9..40,400;1,9..40,500&family=Roboto:ital,wght@0,100;0,400;1,300;1,400&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     
-    <header>
+    <header class="header">
         <nav>
 
             <div class="container">
@@ -65,7 +61,6 @@
             <div class="row">
             
                 <div class="col-md-4">
-                    
                     <div class="promo_title">
                         <h1 class="promo_header animate__fadeIn wow">Быстрая установка окон</h1>
                         <h2 class="promo_subheader animate__fadeIn wow">по московской области для домов, квартир, коттеджей</h2>
@@ -74,10 +69,10 @@
                 </div>
 
                 <div class="col-md-2 ">
-                    <div class="promo_consultation animate__fadeInRight wow">
+                    <div id="consultation-form" class="promo_consultation animate__fadeInRight wow">
                         <div class="promo_text">Заполните форму и мы вам перезвоним</div>
                       <br>
-                        <form class="promo_form">
+                        <form class="promo_form" method="post" action="mailer/smart.php">
                        
                             <input name="number" class="form-control" placeholder="Ваш номер">
                             <br>
@@ -190,7 +185,6 @@
         </div>
     </section>
     
-    
     <section id="carousel" class="my_carousel">
         
         <div class="container">
@@ -263,9 +257,6 @@
         </div>     
     </section>
     
-   
-
-
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -289,10 +280,10 @@
     
                     <div class="footer_third_block">
                         
-                        <div class="footer_consultation">
+                        <div id="footer" class="footer_consultation">
                             <div class="footer_text">Заполните форму и мы вам перезвоним</div>
                           <br>
-                            <form class="footer_form">
+                            <form  class="footer_form" method="post" action="mailer/smart.php">
                            
                                 <input name="number" class="form-control" placeholder="Ваш номер">
                                 <br>
@@ -316,14 +307,10 @@
             <div class="modal_close">&times;</div>
             <div class="modal_subtitle">Просто заполните форму заявки</div>
             <div class="modal_descr">и мы перезвоним вам в течении 10 минут</div>
-            <form class="overlay_form">
+            <form class="overlay_form" method="post" action="mailer/smart.php">
                            
                 <input name="number" class="form-control" placeholder="Ваш номер">
-                <br>
-                <br>
                 <input name="name" type="text" class="form-control" placeholder="Ваше имя">
-                <br>
-                <br>
                 <button type="submit" class="btn btn-primary">Заказать звонок</button>
             </form>
         </div>
@@ -336,13 +323,9 @@
         </div>
     </div>
 
-
-  
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/wow.js"></script>

@@ -1230,4 +1230,8 @@ nav {
     .footer .footer_consultation button {
         margin-left: -1px;
     }
+
+    .overlay .overlay_modal {
+	width: 235px;
+    }
 }
